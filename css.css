@@ -1,0 +1,25 @@
+.header{
+    text-align: center;
+    color: lightslategrey;
+}
+.G7{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+    color: rgb(30, 105, 180);
+}
+.info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text{
+    cursor: pointer;
+    border-radius: 5px;
+    color: brown;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
