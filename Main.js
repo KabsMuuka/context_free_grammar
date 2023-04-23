@@ -1,6 +1,6 @@
 // Grammar rules
 let rules = {
-    "start": ["#Greeting# #Name#!", "#Task#", "#Team#", "#JavaScript#"],
+    "start": ["#Greeting# #Name#!", "#Task#", "#Team#"],
     "Task": ["We have been given an assignment on Context Free Grammar! And this is a sample code.",
              "Our task is to implement a context-free grammar in Javascript.",
              "The assignment is about generating random sentences using context-free grammar.",
