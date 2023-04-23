@@ -11,7 +11,6 @@ let rules = {
              "Our team consists of #Name#, #Name#, #Name#, #Name#, and #Name#.",
              "In our team, we have #Name#, #Name#, #Name#, #Name#, and #Name#.",
              "We are a team of 5 members, including #Name#, #Name#, #Name#, #Name#, and #Name#."]
-    "Javascript" : ["#Name# loves using Javascript.",]
   };
   
   let grammar;
