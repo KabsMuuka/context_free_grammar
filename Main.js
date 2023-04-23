@@ -16,7 +16,7 @@ let rules = {
   "Greeting":["Hello", "Hi", "Hey", "Greetings", "Safe", "How are you doing", "Yo", "What's up",
                "Hi there", "Hola", "Hey there", "Greetings!", "Hiya", "Hello!", "Howdy", "Hi, friend"],
 
-  "Name": ["Kabs Muuka", "Bob", "Edward Jr", "Gabriel"],
+  "Name": ["Kabs Muuka", "Robert", "Edward Jr", "Gabriel"],
 
   "Team": ["#Name# is in group 7, and we are a team of 5 members.",
            "Our team consists of #Name#, #Name#, #Name#, #Name#, and #Name#.",
