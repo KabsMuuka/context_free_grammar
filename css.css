@@ -1,25 +1,87 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;700&family=Noto+Sans&family=Poppins:wght@100;400&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,300;0,400;1,500&family=Ubuntu&display=swap');
+
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
 .header{
+    margin: 1em;
     text-align: center;
     color: lightslategrey;
 }
+.members{
+    width: 50%;
+    margin: auto;
+}
+.member{
+    text-align: left;
+}
+.member p{
+    padding: .2em 0;
+}
 .G7{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1em 0;
+    text-decoration: underline;
 }
 .name{
-    color: rgb(30, 105, 180);
+    color: #1e69b4;
 }
 .info{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    width: 50%;
+    background-color: #1e69b4;
+    padding: .5em;
+    border-radius: 10px;
+    margin: 2em auto;
+    color: #fff;
+}
+.info p{
+    padding: .2em 0;
+    line-height: .2em;
 }
 .button{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+
 }
 .text{
     cursor: pointer;
     border-radius: 5px;
     color: brown;
     font-size: medium;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: .5rem 2rem;
+    color: #fff;
+    background-color: #1e69b4;
+    border: none;
+    outline: none;
 }
+
+
+.text:hover{
+    filter: brightness(200%);
+}
+
+.output{
+    background-color: #1e69b4;
+    margin: .8em auto;
+    text-align: center;
+    width: 50%;
+    padding: 1em;
+    color: #fff;
+    border-radius: 10em;
+}
+

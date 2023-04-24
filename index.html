@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html>  
     <head>
-        <title>Context Free Grammar</title>
-     <link rel="stylesheet" href="css.css"> 
+        <title>CFG | Home</title>
+        <link rel="stylesheet" href="css.css"> 
+        <script src="js/vendor/jquery-1.11.2.min.js" defer></script>
+        <script src="lib/p5.js" defer></script>
+        <script src="js/tracery.min.js" defer></script>
+        <script src="Main.js" defer></script>
     </head>
 <body>
-    <h1 class="header" >Context Free Grammar </h1>
-    <hr>
-    <p class="G7">Group 7 team members</p>
-    <hr>
-    <p class="name"> Kabwali Muuka</p>
-    <p class="name"> Edward </p>
-    <p class="name"> Gabriel </p>
-    <p class="name"> Robert </p>
-    <p class="name"> Evans Mumba </p>
-    
-    <hr>
+    <header>
+        <h1 class="header" >Context Free Grammar </h1>
+    </header>
+    <div class="members">
+        <p class="G7">Group 7 team members</p>
+
+        <div class="member">
+            <p class="name"> Kabwali Muuka</p>
+            <p class="name"> Edward </p>
+            <p class="name"> Gabriel </p>
+            <p class="name"> Robert </p>
+            <p class="name"> Evans Mumba </p>
+        </div>
+    </div>
+      
 
     <p class="info"> 
-        When you click Auto Generate button.
+        When you click Generate button.
         <br> 
         The code will randomly Generate sequences based on the rules it has been instructed with
         some sentences that will be Generated won't make sense. 
         <br> 
         Go ahead and try it out 
     </p>
-    <hr>
-    <div class="button"> 
-        <button class="text" onclick="GenerateCode()"> Auto Generate  </button> 
-    </div>
-    <div id="storyOutput"></div>
 
-    <script src="js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="lib/p5.js"></script>
-    <script src="js/tracery.min.js"></script>
-    <script src="Main.js"></script>
+    <div class="button"> 
+        <button class="text" onclick="GenerateCode()"> Generate  </button> 
+    </div>
+    <div class="message">
+    </div>
+    
+
+
 </body>
   
 </html>

@@ -30,14 +30,26 @@ let rules = {
            "Our team of #Name#, #Name#, #Name#, and #Name# is committed to excellence."]
 };
   let grammar;
+
+ 
   //function that calls the GenerateCode() when the button is clicked
   function GenerateCode(){
     grammar = tracery.createGrammar(rules);
     let result = grammar.flatten("#start#");
+    let element = document.createElement('div');
+    let message = document.querySelector('.message');
+
+    
+
     //prints out the results 
-    console.log(result);
+    // console.log(result);
 
     //renders to the html Webpage
-    let storyOutput = document.getElementById("storyOutput");
-    storyOutput.textContent = result;
+    // let storyOutput = document.getElementById("storyOutput");
+    // storyOutput.textContent = result;
+
+    message.prepend(element);
+    element.innerText=result;
+    element.classList.add('output');
+
   }
